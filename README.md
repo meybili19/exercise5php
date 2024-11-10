@@ -28,30 +28,23 @@ Before running this project, you must have the following programs:
 3. **Build the Docker image**:
 
      Run the following command in the terminal to build the Docker image:
-        ```bash
            docker build -t meybili/exercise5php .
-        ```
 
 4. **Run the Application**:
 
     Once the image has been built successfully, run the following command to start the container:
-        ```bash
+
         docker run --name exercise5php -p 80:80 meybili/exercise5php
-        ```
 
 ## Running from Docker Hub
 
 1. **Pull the image from Docker Hub**:
 
-    ```bash
     docker pull meybili/exercise5php:latest
-    ```
 
 2. **Run the container for the project**:
 
-        ```bash
         docker run --name exercise5php -p 80:80 meybili/exercise5php
-        ```
 
 3. Open your browser and navigate to http://localhost:80 to see the app.
 
